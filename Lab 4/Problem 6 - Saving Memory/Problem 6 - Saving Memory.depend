@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572012584 source:d:\csed 23\programming\lab programming\lab 4\problem 6 - saving memory\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
