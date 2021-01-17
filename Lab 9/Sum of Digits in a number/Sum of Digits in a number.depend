@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1577770662 source:d:\csed 23\programming\lab programming\lab 9\sum of digits in a number\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
