@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1574712603 source:d:\csed 23\programming\lab programming\lab 6\max row at the top\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1574794698 source:d:\csed 23\programming\lab programming\lab 7\max row at the top\main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+

@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+ float a, b, c, d, r;
+          int n, o;
+          printf ("Please choose one of the following options: \n");
+          printf ("Enter 1 For Addition\n");
+          printf ("Enter 2 For Substraction\n");
+          printf ("Enter 3 For Multiplication\n");
+          printf ("Enter 4 For Division \n ");
+          printf("Enter your Option=");
+          scanf("%d", &n);
+          if(n==1 || n==2 || n==3 || n==4)
+          {
+                  printf("First Fraction\n");
+                  printf(" Enter the first no. ");
+                  scanf("%f", &a);
+                  printf(" Enter the second no. ");
+                  scanf("%f", &b);
+                  printf("Second Fraction\n");
+                  printf(" Enter the first no. ");
+                  scanf("%f", &c);
+                  printf(" Enter the second no. ");
+                  scanf("%f", &d);
+                  switch(n)
+                  {
+                           case 1:
+                                r=a/b + c/d;
+                                break;
+                           case 2:
+                                r=a/b - c/d;
+                                break;
+                           case 3:
+                                r=a/b * c/d;
+                                break;
+                           case 4:
+                                r=a/b*d/c;
+                  }
+           printf (" The Result is = %f", r);
+
+          }
+          else
+          {
+               printf ("Not one of the options");
+          }
+
+           getch();
+}
+
